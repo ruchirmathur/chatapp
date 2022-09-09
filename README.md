@@ -11,6 +11,9 @@
 
 ## Usage Pattern
 
+The following usage patterns are just for reference and they do not correspond to an actual production application
 
+1. Number of logged in users in a day - 1 million
+2. 
 
 ## Resource Estimations
