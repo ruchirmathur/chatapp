@@ -9,4 +9,8 @@
 1. This system should be highly available and must work with low latency.
 2. Messages must be retained for all the users.
 
-## System Requirements
+## Usage Pattern
+
+
+
+## Resource Estimations
