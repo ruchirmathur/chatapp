@@ -1,6 +1,5 @@
 # chatapp
-chatapp
-Chatapp is a chat application that addresses the following use cases.
+# Chatapp is a chat application that addresses the following use cases.
 
 Logged in users should be able to chat with each other.
 Users should be able to chat in a group setting.
