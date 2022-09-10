@@ -46,3 +46,5 @@ The following system components are considered to design a chat application.
 7. Servers - This is host the API's that are written for the chat system
 
 ## System Design
+
+https://go.gliffy.com/go/share/image/sfpl4f0wakh8bvnehjxh.png?utm_medium=live-embed&utm_source=custom
