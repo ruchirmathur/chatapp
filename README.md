@@ -27,4 +27,11 @@ The following are just some resource estimations done based on the usage pattern
 2. Number of active users - 1000,000 users
 3. Total number of servers = Number of active users or the number of requests coming onto the servers/Number of requests that the server can serve - 1000,000/8000 = 125 servers
 4. Total storage space = Total text size + Total photo/video size = 1000,000 * 1 + 1000,000 * 5000
-5. 
+5. Total network bandwidth = Number storage size/Number of seconds in a day =  5,001,000,000/86400 = 5788 
+
+## System Components
+
+The following system components are considered to design a chat application.
+
+1. Websocket servers - These servers will ensure that there is a long running connection thats open between the client and the server to allow seamless chatting experience between 2 users
+2. 
