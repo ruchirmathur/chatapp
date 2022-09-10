@@ -14,6 +14,17 @@
 The following usage patterns are just for reference and they do not correspond to an actual production application
 
 1. Number of logged in users in a day - 1 million
-2. 
+2. Size of text message per user - 1 KB
+3. Number of videos and photos shared per day - 1 million
+4. Size of each photos/videos - 5 MB 
+5. Total size of photos/videos - 5000 * 1000,000 = 5000,000,000 KB
 
 ## Resource Estimations
+
+The following are just some resource estimations done based on the usage patterns provided
+
+1. Each server serves - 8000 requests per day
+2. Number of active users - 1000,000 users
+3. Total number of servers = Number of active users or the number of requests coming onto the servers/Number of requests that the server can serve - 1000,000/8000 = 125 servers
+4. Total storage space = Total text size + Total photo/video size = 1000,000 * 1 + 1000,000 * 5000
+5. 
