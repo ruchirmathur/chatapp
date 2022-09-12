@@ -47,4 +47,8 @@ The following system components are considered to design a chat application.
 
 ## System Design
 
-https://go.gliffy.com/go/share/image/sfpl4f0wakh8bvnehjxh.png?utm_medium=live-embed&utm_source=custom
+1. UI - Angular is choosen to implement the chat feature in the application
+2. API - Following API's are considered in the design
+   a. User API
+   b. Messaage API
+   c. Group API
