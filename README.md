@@ -48,7 +48,7 @@ The following system components are considered to design a chat application.
 ## System Design
 
 1. UI - Angular is choosen to implement the chat feature in the application
-2. API - Following API's are considered in the design
+2. ### API Design - Following API's are considered in the design
    1. user API
    2. writeMessaage API
    3. readMessage API
