@@ -89,5 +89,5 @@ The following system components are considered to design a chat application.
        
  ### Websocket Design
  
-     
+     Http Push and Http Pull are 2 technologies that can be used to send messages to users. In case of chat applications there is generally a need for a bidirectional transfer of data with low latency. For this purpose, Http Push methodology is used. In Http Push methodology, websocket technology allows connections to be opened between the clients and servers and this helps in reducing any latency that may be there 
     
