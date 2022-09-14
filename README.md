@@ -78,16 +78,9 @@ The following system components are considered to design a chat application.
     2. Message - This table will contain the message related information
        columns - from_user_id, to_user_id, message, message_id, photo_url, photo_id, video_url,video_id, timestamp
        
-   #### Database Type
-   
    ##### Message Data 
    
    Since the messages sent by a user may not be read immediately, hence a database that supports eventually consistency is choosen.
-    
-       1. Document Database
-       2. Key value Store Database
-       3. Graph Database
-       4. Columnar Database
        
    ##### User Data 
    
