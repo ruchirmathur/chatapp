@@ -80,10 +80,14 @@ The following system components are considered to design a chat application.
        
    #### Database Type
    
-    1. Message Data - Since the messages sent by a user may not be read immediately, hence a database that supports eventually consistency is choosen.
-       1. 
-       2. 
-    2. User Data - This data can be kept in a relational store or a non relational store.
+    1. ##### Message Data - Since the messages sent by a user may not be read immediately, hence a database that supports eventually consistency is choosen.
+    
+       1. Document Database
+       2. Key value Store Database
+       3. Graph Database
+       4. Columnar Database
+       
+    2. ##### User Data - This data can be kept in a relational store or a non relational store.
    
       
        
