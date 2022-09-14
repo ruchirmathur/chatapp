@@ -49,6 +49,27 @@ The following system components are considered to design a chat application.
 
 1. UI - Angular is choosen to implement the chat feature in the application
 2. API - Following API's are considered in the design
-   a. User API
-   b. Messaage API
-   c. Group API
+   a. user API
+   b. writeMessaage API
+   c. readMessage API
+   d. writePhotoVideo API
+   e. readPhotoVideo API
+   c. groupMessage API
+   
+ 8. user API - This API will be used to retrieve the user information
+    Request - userId
+    
+ 9. writeMessage API - This API will be used to write messages to other users
+    Request - fromUserid, toUserId, text, timestamp
+    
+ 10. readMessage API - This API will be used to read the messages that a user has sent to another user
+     Request - fromUserId, toUserId,timestamp
+     
+ 11. writePhotoVideo API - This API is used to write Photos and Videos meta data into a daatastore and keep the photos and videos in a blob store.
+     Request -  fromUserId, toUserId, videoUrl,photoUrl,timestamp
+ 
+ 12. readPhotoVideo  - This API is used to read photos meta data from the datastore and send appropriate photo content to the user from the blob store.
+     Request - fromUserId, toUserId, timestamp
+     
+     
+    
