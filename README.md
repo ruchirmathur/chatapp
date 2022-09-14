@@ -38,8 +38,8 @@ The following system components are considered to design a chat application.
 3. Cache - This component is required to cache messages 
 4. Database - This component will hold the following information
 
-   a. User Data
-   b. Message Data
+   1. User Data
+   2. Message Data
    
 5. Blob Storage - This storage is needed to store photos and videos that are shared between the users
 6. Messaging system - This is needed to push messages to those users who are not online. When the users are online then the message is sent to them
