@@ -33,17 +33,14 @@ The following are just some resource estimations done based on the usage pattern
 
 The following system components are considered to design a chat application.
 
-1. Websocket servers - These servers will ensure that there is a long running connection thats open between the client and the server to allow seamless chatting experience between users
-2. Load Balancers - This component ensures that the load to the websocket servers is evenly distrubuted properly and one servers does not get all the load
-3. Cache - This component is required to cache messages 
-4. Database - This component will hold the following information
-
-   1. User Data
-   2. Message Data
-   
-5. Blob Storage - This storage is needed to store photos and videos that are shared between the users
-6. Messaging system - This is needed to push messages to those users who are not online. When the users are online then the message is sent to them
-7. Servers - This is host the API's that are written for the chat system
+#### Websocket servers
+#### Servers
+#### Load Balancers
+#### Cache 
+#### Database
+#### Content Distribution Network
+#### Blob Storage
+#### Messaging system
 
 ## System Design
  
