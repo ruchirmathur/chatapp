@@ -70,7 +70,7 @@ The following system components are considered to design a chat application.
 
 ### Database Design
      
-   ## Table Design
+   #### Table Design
      
     1. User - This table will contain the user related information.
        columns - user_id, first_name, last_name, email_addr
@@ -78,7 +78,12 @@ The following system components are considered to design a chat application.
     2. Message - This table will contain the message related information
        columns - from_user_id, to_user_id, message, message_id, photo_url, photo_id, video_url,video_id, timestamp
        
-   ## Database Type
+   #### Database Type
+   
+    1. Message Data - Since the messages sent by a user may not be read immediately, hence a database that supports eventually consistency is choosen.
+       1. 
+       2. 
+    2. User Data - This data can be kept in a relational store or a non relational store.
    
       
        
