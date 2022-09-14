@@ -49,24 +49,24 @@ The following system components are considered to design a chat application.
  
 ### API Design
 
-   Following API's are considered in the design.
+    Following API's are considered in the design.
  
-   1. user API - This API will be used to retrieve the user information
+    1. user API - This API will be used to retrieve the user information
       Request - userId
       
-   2. writeMessage API - This API will be used to write messages to other users
+    2. writeMessage API - This API will be used to write messages to other users
       Request - fromUserid, toUserId, text, timestamp
       
-   3. readMessage API - This API will be used to read the messages that a user has sent to another user
+    3. readMessage API - This API will be used to read the messages that a user has sent to another user
       Request - fromUserId, toUserId,timestamp
       
-   4. writePhotoVideo API - This API is used to write Photos and Videos meta data into a daatastore and keep the photos and videos in a blob store.
+    4. writePhotoVideo API - This API is used to write Photos and Videos meta data into a daatastore and keep the photos and videos in a blob store.
       Request -  fromUserId, toUserId, videoUrl,photoUrl,timestamp
       
-   5. readPhotoVideo  - This API is used to read photos meta data from the datastore and send appropriate photo content to the user from the blob store.
+    5. readPhotoVideo  - This API is used to read photos meta data from the datastore and send appropriate photo content to the user from the blob store.
       Request - fromUserId, toUserId, timestamp
      
-   6. groupMessage API
+    6. groupMessage API
 
 ### Database Design
      
