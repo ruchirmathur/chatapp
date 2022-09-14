@@ -33,14 +33,14 @@ The following are just some resource estimations done based on the usage pattern
 
 The following system components are considered to design a chat application.
 
-#### Websocket servers
-#### Servers
-#### Load Balancers
-#### Cache 
-#### Database
-#### Content Distribution Network
-#### Blob Storage
-#### Messaging system
+#### 1. Websocket servers
+#### 2. Servers
+#### 3. Load Balancers
+#### 4. Cache 
+#### 5. Database
+#### 6. Content Distribution Network
+#### 7. Blob Storage
+#### 8. Messaging system
 
 ## System Design
  
