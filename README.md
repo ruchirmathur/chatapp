@@ -2,22 +2,20 @@
 
 1. Logged in users should be able to chat with each other. 
 2. Users should be able to chat in a group setting. 
-    <!--
-    2.1 Any limitation for Max users in a group
-    2.2 Can a user leave a group?
-    -->
-3. Users should be able send text as well as photos and video messages. 
-    <!-- 
+3. Any limitation for Max users in a group - This needs to be thought through
+4. Can a user leave a group?
+5. Users should be able send text as well as photos and video messages. 
+     
     3.1 Only file extensions are validated for photo/video uploads? 
     3.2 Where and how long the files would be stored?
     3.3 Will there be a usage quota allocated for the user ?
-    -->
+   
 
 ## Non Functional Requirements
 
 1. This system should be highly available and must work with low latency.
 2. Messages must be retained for all the users.
-   <!-- how long message will be retained for? -->
+3. Messages will be retained for 3 weeks.
 
 ## Usage Pattern
 
