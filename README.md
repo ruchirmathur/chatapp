@@ -1,13 +1,23 @@
 ## Chatapp is a chat application that addresses the following use cases.
 
-1. Logged in users should be able to chat with each other.
-2. Users should be able to chat in a group setting.
-3. Users should be able send text as well as photos and video messages.
+1. Logged in users should be able to chat with each other. 
+2. Users should be able to chat in a group setting. 
+    <!--
+    2.1 Any limitation for Max users in a group
+    2.2 Can a user leave a group?
+    -->
+3. Users should be able send text as well as photos and video messages. 
+    <!-- 
+    3.1 Only file extensions are validated for photo/video uploads? 
+    3.2 Where and how long the files would be stored?
+    3.3 Will there be a usage quota allocated for the user ?
+    -->
 
 ## Non Functional Requirements
 
 1. This system should be highly available and must work with low latency.
 2. Messages must be retained for all the users.
+   <!-- how long message will be retained for? -->
 
 ## Usage Pattern
 
@@ -24,7 +34,10 @@ The following usage patterns are just for reference and they do not correspond t
 The following are just some resource estimations done based on the usage patterns provided
 
 1. Each server serves - 8000 requests per day
-2. Number of active users - 1000,000 users
+2. Number of active users - 1000,000 users 
+    <!-- 
+     Number of active users would be more than users logged in a day, this number should be more than 1 million 
+     -->
 3. Total number of servers = Number of active users or the number of requests coming onto the servers/Number of requests that the server can serve - 1000,000/8000 = 125 servers
 4. Total storage space = Total text size + Total photo/video size = 1000,000 * 1 + 1000,000 * 5000
 5. Total network bandwidth = Number storage size/Number of seconds in a day =  5,001,000,000/86400 = 5788 
@@ -64,6 +77,9 @@ The following system components are considered to design a chat application.
       Request - fromUserId, toUserId, timestamp
      
     6. groupMessage API
+       <!--
+        Can we make writeMessageAPI's touserId field as multivalued instead of new API for groupMessage API? 
+        -->
 
 ### Database Design
      
